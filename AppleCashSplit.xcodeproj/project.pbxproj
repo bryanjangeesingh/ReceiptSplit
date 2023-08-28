@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5503D4622A87417D005E5994 /* YsabeauSC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5503D4612A87417D005E5994 /* YsabeauSC.ttf */; };
 		5590BA762A8187E000EFDCA4 /* AppleCashSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590BA752A8187E000EFDCA4 /* AppleCashSplitApp.swift */; };
 		5590BA782A8187E000EFDCA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590BA772A8187E000EFDCA4 /* ContentView.swift */; };
 		5590BA7A2A8187E100EFDCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5590BA792A8187E100EFDCA4 /* Assets.xcassets */; };
 		5590BA7D2A8187E100EFDCA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5590BA7C2A8187E100EFDCA4 /* Preview Assets.xcassets */; };
+		5590BA852A819A6F00EFDCA4 /* Brush King.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5590BA832A819A1800EFDCA4 /* Brush King.otf */; };
+		5590BA862A819A9E00EFDCA4 /* ShigaBrush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5590BA842A819A3C00EFDCA4 /* ShigaBrush.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5503D4612A87417D005E5994 /* YsabeauSC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = YsabeauSC.ttf; sourceTree = "<group>"; };
 		5590BA722A8187E000EFDCA4 /* AppleCashSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCashSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5590BA752A8187E000EFDCA4 /* AppleCashSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCashSplitApp.swift; sourceTree = "<group>"; };
 		5590BA772A8187E000EFDCA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5590BA792A8187E100EFDCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5590BA7C2A8187E100EFDCA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5590BA832A819A1800EFDCA4 /* Brush King.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brush King.otf"; sourceTree = "<group>"; };
+		5590BA842A819A3C00EFDCA4 /* ShigaBrush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShigaBrush.ttf; sourceTree = "<group>"; };
+		5590BA872A819B6F00EFDCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,8 @@
 		5590BA742A8187E000EFDCA4 /* AppleCashSplit */ = {
 			isa = PBXGroup;
 			children = (
+				5590BA882A819C1500EFDCA4 /* Fonts */,
+				5590BA872A819B6F00EFDCA4 /* Info.plist */,
 				5590BA752A8187E000EFDCA4 /* AppleCashSplitApp.swift */,
 				5590BA772A8187E000EFDCA4 /* ContentView.swift */,
 				5590BA792A8187E100EFDCA4 /* Assets.xcassets */,
@@ -65,6 +74,16 @@
 				5590BA7C2A8187E100EFDCA4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5590BA882A819C1500EFDCA4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5590BA842A819A3C00EFDCA4 /* ShigaBrush.ttf */,
+				5590BA832A819A1800EFDCA4 /* Brush King.otf */,
+				5503D4612A87417D005E5994 /* YsabeauSC.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5503D4622A87417D005E5994 /* YsabeauSC.ttf in Resources */,
+				5590BA852A819A6F00EFDCA4 /* Brush King.otf in Resources */,
 				5590BA7D2A8187E100EFDCA4 /* Preview Assets.xcassets in Resources */,
+				5590BA862A819A9E00EFDCA4 /* ShigaBrush.ttf in Resources */,
 				5590BA7A2A8187E100EFDCA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +292,7 @@
 				DEVELOPMENT_TEAM = RG68B4RL4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleCashSplit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_TEAM = RG68B4RL4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleCashSplit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
